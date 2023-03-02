@@ -18,4 +18,8 @@ class User < ApplicationRecord
     api_keys.live_keys.last
   end  
 
+  def full_name
+    "#{first_name} #{last_name}"
+  end
+
 end
