@@ -4,7 +4,3 @@ module ApplicationCable
 
 
 end
- this is current line
-
-
- 
